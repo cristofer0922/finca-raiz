@@ -1,3 +1,13 @@
 *
 !public/
 !.gitignore
+
+!framework/
+!framework/cache/
+!framework/cache/data/
+!framework/cache/data/.gitkeep
+
+!framework/sessions/
+!framework/views/
+
+!logs/
