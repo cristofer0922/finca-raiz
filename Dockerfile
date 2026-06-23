@@ -12,4 +12,4 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
-CMD php artisan optimize:clear && php artisan serve --host=0.0.0.0 --port=$PORT
+CMD php artisan optimize:clear && php artisan config:cache && php artisan serve --host=0.0.0.0 --port=$PORT
