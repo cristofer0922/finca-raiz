@@ -8,6 +8,10 @@
 !framework/cache/data/.gitkeep
 
 !framework/sessions/
+!framework/sessions/.gitkeep
+
 !framework/views/
+!framework/views/.gitkeep
 
 !logs/
+!logs/.gitkeep
